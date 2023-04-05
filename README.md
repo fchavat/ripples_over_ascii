@@ -1,1 +1,1 @@
-# ripples_over_ascii
+![Ripples over ASCII](./ripples.gif)

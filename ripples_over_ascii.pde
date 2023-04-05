@@ -13,7 +13,7 @@ int draw_increment = font_size + static_inc;
 int center_x = -200;
 int center_y = -200;
 float radius = 100;
-float radius_inc = 2;
+float radius_inc = 4;
 float center_x_norm = center_x;
 float center_y_norm = center_y;
 
@@ -24,6 +24,7 @@ float[] cfs_radius = {};
 void draw() {
   background(255);
   textAlign(CENTER,CENTER);
+  textSize(font_size);
   fill(0);
   x_map_inc = map(mouseX, 0, width, 0, 8);
   y_map_inc = map(mouseY, 0, height, 0, 8);
